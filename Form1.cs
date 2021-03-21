@@ -37,13 +37,12 @@ namespace textbox
             #endregion
 
 
-
         }
 
         private void OnLeave(object sender, EventArgs e)
         {
             #region TextBox Logic
-            BunifuMaterialTextbox obj = (BunifuMaterialTextbox)sender;
+             BunifuMaterialTextbox obj = (BunifuMaterialTextbox)sender;
             //checking the textbox if it is empty and giving the if statement a condition where we are selecting textbox name to mark and modify it
             if (obj.Text == string.Empty && obj.Name == "txt1")
             {
