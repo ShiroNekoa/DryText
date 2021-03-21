@@ -11,3 +11,14 @@ D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.csproj.CoreCompileI
 D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.csproj.CopyComplete
 D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.exe
 D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.pdb
+C:\Users\zekie\Desktop\New folder\DryText\bin\Debug\textbox.exe.config
+C:\Users\zekie\Desktop\New folder\DryText\bin\Debug\textbox.exe
+C:\Users\zekie\Desktop\New folder\DryText\bin\Debug\textbox.pdb
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.csprojAssemblyReference.cache
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.Form1.resources
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.Properties.Resources.resources
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.csproj.GenerateResource.cache
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.csproj.CoreCompileInputs.cache
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.csproj.CopyComplete
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.exe
+C:\Users\zekie\Desktop\New folder\DryText\obj\Debug\textbox.pdb
