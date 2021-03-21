@@ -1,0 +1,13 @@
+D:\Programming\WindowsFormPractice\textbox\bin\Debug\textbox.exe.config
+D:\Programming\WindowsFormPractice\textbox\bin\Debug\textbox.exe
+D:\Programming\WindowsFormPractice\textbox\bin\Debug\textbox.pdb
+D:\Programming\WindowsFormPractice\textbox\bin\Debug\Bunifu_UI_v1.52.dll
+D:\Programming\WindowsFormPractice\textbox\bin\Debug\Guna.UI2.dll
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.csprojAssemblyReference.cache
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.Form1.resources
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.Properties.Resources.resources
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.csproj.GenerateResource.cache
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.csproj.CoreCompileInputs.cache
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.csproj.CopyComplete
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.exe
+D:\Programming\WindowsFormPractice\textbox\obj\Debug\textbox.pdb
