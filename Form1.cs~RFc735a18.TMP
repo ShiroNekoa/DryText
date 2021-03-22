@@ -1,0 +1,100 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Bunifu.Framework.UI;
+namespace textbox
+{
+    public partial class Form1 : Form
+    {
+        #region Variable to compare this is going to be used for logic
+        //public string name = "Name";
+        //public string Adress = "Adress";
+        //public string Email = "Email";
+        //public string cp = "Cp No.";
+
+
+        #endregion
+
+
+        public List<Textbox> textBoxes = new List<Textbox>();
+        public List<BunifuMaterialTextbox> textBoxInUI = new List<BunifuMaterialTextbox>();
+
+        public Form1()
+        {
+            InitializeComponent();
+            
+        }
+
+        private void OnClick(object sender, EventArgs e)
+        {
+
+            BunifuMaterialTextbox obj = (BunifuMaterialTextbox)sender;
+            textBoxes.Add(new Textbox( obj.Text, obj.Name ));
+            foreach (var item in textBoxes)
+            {
+                MessageBox.Show(item.Name + item.Placeholder);
+            }
+            foreach (var textbox in textBoxes)
+            {
+                if (obj.Text == textbox.Placeholder)
+                {
+
+
+                    obj.Text = string.Empty;
+                   
+                }
+            }
+            #region Empty the textbox
+            //BunifuMaterialTextbox obj = (BunifuMaterialTextbox)sender;
+            //if (obj.Text == name || obj.Text == Adress || obj.Text == Email || obj.Text == cp)
+            //{
+            //    obj.Text = string.Empty;
+            //}
+            #endregion
+            
+        }
+
+        private void OnLeave(object sender, EventArgs e)
+        {
+            #region checktextbox
+            //checking the textbox if it is empty and giving the if statement a condition where we are selecting textbox name to mark and modify it
+            //if (obj.Text == string.Empty && obj.Name == "txt1")
+            //{
+            //    obj.Text = name;
+            //}
+            //else if (obj.Text == string.Empty && obj.Name == "txt2")
+            //{
+            //    obj.Text = Email;
+            //}
+            //else if (obj.Text == string.Empty && obj.Name == "txt3")
+            //{
+            //    obj.Text = Adress;
+            //}
+            //else if (obj.Text == string.Empty && obj.Name == "txt4")
+            #endregion
+            
+            BunifuMaterialTextbox obj = (BunifuMaterialTextbox)sender;
+            foreach (var textbox in textBoxes)
+            {
+                if (obj.Text == string.Empty && obj.Name == textbox.Name)
+                {
+                    obj.Text = textbox.Placeholder;
+                }
+            }
+                
+            
+           
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+          
+        }
+    }       
+}
