@@ -35,6 +35,9 @@ namespace textbox
             this.txt4 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.bunifuMaterialTextbox2 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +57,7 @@ namespace textbox
             this.txt1.Margin = new System.Windows.Forms.Padding(4);
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(269, 44);
-            this.txt1.TabIndex = 0;
+            this.txt1.TabIndex = 1;
             this.txt1.Text = "Name";
             this.txt1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txt1.Enter += new System.EventHandler(this.OnClick);
@@ -132,7 +135,7 @@ namespace textbox
             this.guna2Panel1.Controls.Add(this.txt4);
             this.guna2Panel1.Controls.Add(this.txt2);
             this.guna2Panel1.Controls.Add(this.txt3);
-            this.guna2Panel1.Location = new System.Drawing.Point(257, 43);
+            this.guna2Panel1.Location = new System.Drawing.Point(26, 26);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(288, 244);
@@ -150,28 +153,69 @@ namespace textbox
             this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.Gray;
             this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.bunifuMaterialTextbox1.LineThickness = 3;
-            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(261, 330);
+            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(30, 313);
             this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
             this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(269, 44);
-            this.bunifuMaterialTextbox1.TabIndex = 0;
+            this.bunifuMaterialTextbox1.TabIndex = 1;
             this.bunifuMaterialTextbox1.Text = "Age";
             this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuMaterialTextbox1.Enter += new System.EventHandler(this.OnClick);
             this.bunifuMaterialTextbox1.Leave += new System.EventHandler(this.OnLeave);
+            // 
+            // bunifuMaterialTextbox2
+            // 
+            this.bunifuMaterialTextbox2.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMaterialTextbox2.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.bunifuMaterialTextbox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.bunifuMaterialTextbox2.HintForeColor = System.Drawing.Color.Empty;
+            this.bunifuMaterialTextbox2.HintText = "";
+            this.bunifuMaterialTextbox2.isPassword = false;
+            this.bunifuMaterialTextbox2.LineFocusedColor = System.Drawing.Color.Blue;
+            this.bunifuMaterialTextbox2.LineIdleColor = System.Drawing.Color.Gray;
+            this.bunifuMaterialTextbox2.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.bunifuMaterialTextbox2.LineThickness = 3;
+            this.bunifuMaterialTextbox2.Location = new System.Drawing.Point(30, 365);
+            this.bunifuMaterialTextbox2.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMaterialTextbox2.Name = "bunifuMaterialTextbox2";
+            this.bunifuMaterialTextbox2.Size = new System.Drawing.Size(269, 44);
+            this.bunifuMaterialTextbox2.TabIndex = 1;
+            this.bunifuMaterialTextbox2.Text = "Sample";
+            this.bunifuMaterialTextbox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuMaterialTextbox2.Enter += new System.EventHandler(this.OnClick);
+            this.bunifuMaterialTextbox2.Leave += new System.EventHandler(this.OnLeave);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(475, 94);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "Username";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(475, 118);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 5;
+            this.textBox2.Text = "Password";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.bunifuMaterialTextbox2);
             this.Controls.Add(this.bunifuMaterialTextbox1);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -183,6 +227,9 @@ namespace textbox
         private Bunifu.Framework.UI.BunifuMaterialTextbox txt4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
